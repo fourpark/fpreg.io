@@ -1,5 +1,5 @@
 <template>
-  <div v-if="asset">
+  <div>
     <h2>{{asset.details.name}}</h2>
     <ul class="list-unstyled">
       <li v-if="asset.details.contentLocation"><strong>Location:</strong> {{asset.details.contentLocation.name}}</li>
