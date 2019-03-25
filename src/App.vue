@@ -30,13 +30,15 @@
       </div>
     </nav>
     <div class="container-fluid">
-      collectionheader
+      <collectionheader></collectionheader>
       <div class="row">
         <div class="col-4 mt-3">
-          assetlist
+          <assetlist></assetlist>
         </div>
-        <div class="col-8 mt-3">
-          assetdetails
+        <div class="col-8 border-left">
+          <div class="mt-3">
+            <assetdetails></assetdetails>
+          </div>
         </div>
       </div>
     </div>
